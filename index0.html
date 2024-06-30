@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Uptown skylla</title>
+	<style type="text/css">
+		* {
+			padding: 0px;
+			margin: 0px;
+			text-decoration: none;
+			color: inherit;
+		}
+		main {
+			width: 100%;
+			height: 100vh;
+			background: url('images/15.jpg');
+			background-size: cover;
+			position: relative;
+		}
+		.div1,.div2 {
+			background: #395670;
+			padding: 10px 20px;
+			border: 0.1px solid white;
+			border-radius: 10px;
+			font-weight: bolder;
+			font-size: 20px;
+			position: absolute;
+			top: 50%;
+			left: 35%;
+			color: white;
+			z-index: 1;
+		}
+
+		.div2 {
+			top: 50%;
+			left: 50%;
+			z-index: 1;
+		}
+
+		.overlay {
+			width: 450px;
+			height: 150px;
+			border: 1px solid white;
+			background: rgba(0,0,0,0.5);
+			position: absolute;
+			top: 42%;
+			left: 33%;
+		}
+		.logo{
+			position: absolute;
+			width: 100px;
+			height: 120px;
+			top: 5%;
+			left: 45%;
+		}
+
+		.logo img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<div class="div1">
+			<a href="quick_connect.html">Quick Connect</a> 
+		</div>
+		<div class="div2">
+			<a href="index.html">Continue to web</a>
+		</div>
+		<div class="overlay"></div>
+		<div class="logo">
+			<img src="images/cropped-Logo-White-1-1 (1).png"/>
+		</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quick Connect page</title>
+	<style type="text/css">
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+		main {
+			width: 100%;
+			height: 650px;
+			background: url('images/bg1-h1.jpg');
+			background-size: cover;
+		}
+
+		.logo {
+			text-align: center;
+		}
+
+		img {
+			width: 80px;
+			height: 80px;
+		}
+
+		.form {
+			width: 350px;
+			background: rgba(225,225,225,0.4);
+			padding: 20px;
+			border: 0.1px solid rgba(225,225,225,0.5);
+			position: absolute;
+			top: 5%;
+			left: 34%;
+			box-shadow: 0px 0px 28px 0px white;
+			animation: form 3s linear infinite;
+		}
+
+		@keyframes form {
+			0% {
+			}
+			50% {
+				box-shadow: 0px 0px 0px 0px white;
+			}
+			100% {
+				box-shadow: 0px 0px 28px 0px white;
+			}
+		}
+
+		.enquiry {
+			font-size: 30px;
+			text-align: center;
+			font-weight: bolder;
+			color: #173e62;
+			padding: 0px 0px 25px 0px;
+		}
+
+		.form_line {
+			color: white;
+			font-size: 14px;
+			border-top: 1px solid rgba(225,225,225,0.5);
+			padding: 10px 0px 20px 0px;
+		}
+
+		input {
+			width: 100%;
+			height: 40px;
+			border-radius: 3px;
+			border: 1px solid rgba(0,0,0,0.5);
+			margin: 10px 0px;
+		}
+
+		input[type="number"] {
+			margin: 0px;
+		}
+
+		.number {
+			display: flex;
+			margin: 10px 0px;
+		}
+
+		textarea {
+			width: 100%;
+			height: 60px;
+			margin: 10px 0px;
+		}
+
+		input[type="submit"] {
+			width: inherit;
+			padding: 10px 15px;
+			color: white;
+			background: #173e62;
+			border: 1px solid white;
+			font-weight: bolder;
+		}
+
+		::placeholder {
+			padding: 0px 0px 0px 10px;
+			font-weight: bolder;
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		.website {
+			position: absolute;
+			top: 48%;
+			right: 10%;
+			padding: 10px 20px;
+			background: rgba(0,0,0,0.4);
+			color: white;
+			font-weight: bold;
+			font-size: 17px;
+			border: 1px solid white;
+			border-radius: 5px;
+			font-style: oblique;
+		}
+
+		.website:hover {
+			 background: rgba(225,225,225,0.4);
+			 /*color: black; */
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<div class="website">
+			<a href="index.html">Continue to Web...</a>
+		</div>
+		<div class="form">
+			<div class="logo">
+				<img src="images/cropped-Logo-White-1-1 (1).png"/>
+			</div>
+			<div class="enquiry">Enquiry Now</div>
+			<div class="form_line">
+				Feel free to contact us if you need any assistance, any help or another question.
+			</div>
+			<form>
+				<input type="text" name="User_name" placeholder="Name"> <br/>
+				<input type="email" name="User_email" placeholder="Email"> <br/>
+				<div class="number">
+					<select>
+						<option selected>+91</option>
+						<option>+1</option>
+						<option>+44</option>
+						<option>+93</option>
+					</select>
+					<input type="number" name="User_number" placeholder="Phone Number"> <br/>
+				</div>
+				<textarea placeholder="Message"></textarea> <br/>
+				<input type="submit" name="save" value="SEND">
+			</form>
+		</div>
+	</main>
+</body>
+</html>
