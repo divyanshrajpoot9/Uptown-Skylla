@@ -1,8 +1,7 @@
-https://divyanshrajpoot9.github.io/Uptown-Skylla/
-# N_Queens_Visualizer_Puzzle:
-### Hosted Link: https://divyanshrajpoot9.github.io/N_Queens_Visualizer_Puzzle/
-### Technologies Used: HTML5/CSS3/JavaScript/ES6/Git/GitHub/VSCode/Figma/FontAwesomeCDN.
-This code is a JavaScript implementation of the N-Queens problem visualization using HTML, CSS, and JavaScript. 
+# UPTOWN SKYLA:
+### Hosted Link: https://divyanshrajpoot9.github.io/Uptown-Skylla/
+### Technologies Used: HTML5/CSS3/JavaScript/ES6/Git/GitHub/VSCode/MongoDB/MySQL/Figma/FontAwesomeCDN.
+This code is a JavaScript Illuastrating a Real Estate Website using HTML, CSS, and JavaScript. 
 Here's a breakdown of the code:
 1. **HTML Structure**: The HTML file contains elements with IDs "numberbox", "slider", "progress-bar", "play-button", "pause-button", "n-queen-board", and "queen-arrangement". These elements are manipulated by JavaScript.
 
@@ -18,20 +17,12 @@ Here's a breakdown of the code:
    - `slider.oninput`: Updates the speed of visualization based on slider input.
    - `playButton.onclick`: Initiates the visualization process when the play button is clicked.
 
-4. **Queen Class**:
-   - `constructor`: Initializes the Queen object.
-   - `nQueen`: Method to start solving the N-Queens problem.
-   - `isValid`: Method to check if placing a queen in a certain position is valid.
-   - `clearColor`: Method to clear colors on the chessboard.
-   - `delay`: Method to introduce delays in visualization.
-   - `solveQueen`: Recursive method to solve the N-Queens problem.
-
 5. **Visualize Function**:
    - Triggered when the play button is clicked.
-   - Parses input from the number box to set the size of the chessboard.
+   - Parses input from the number box to set.
    - Clears previous arrangements and boards.
    - Generates HTML elements for the chessboard.
-   - Initiates the N-Queens visualization process.
+   
 
 This code aims to demonstrate how the N-Queens problem can be solved and visualized using JavaScript, providing insights into the process of finding solutions. It utilizes HTML and CSS for the user interface and JavaScript for the logic and animation.
 ## The approach followed in this code can be summarized as follows:
