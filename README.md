@@ -7,11 +7,10 @@ Here's a breakdown of the code:
 
 2. **JavaScript Variables**:
    - `numberbox`, `slider`, `progressBar`, `playButton`, `pauseButton`: Variables referencing various HTML elements.
-   - `queen`: HTML markup for a chess queen icon.
-   - `n`, `speed`, `tempSpeed`, `q`, `Board`: Variables used for controlling the visualization and solving the N-Queens problem.
+   - `variables`: HTML markup for a chess queen icon.
+   - `n`, `speed`, `tempSpeed`, `q`, `Board`: Variables used for controlling the visualization and solving the problem.
    - `array`: Pre-calculated number of possible arrangements for different N values.
    - `pos`: Object used to store the state of the boards.
-   - `Queen`: Class representing a Queen object with methods to solve the N-Queens problem and visualize the process.
 
 3. **Event Listeners**:
    - `slider.oninput`: Updates the speed of visualization based on slider input.
