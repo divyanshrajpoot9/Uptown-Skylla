@@ -1,4 +1,4 @@
-# UPTOWN SKYLA:
+# UPTOWN SKYLLA:
 ### Hosted Link: https://divyanshrajpoot9.github.io/Uptown-Skylla/
 ### Technologies Used: HTML5/CSS3/JavaScript/ES6/Git/GitHub/VSCode/MongoDB/MySQL/Figma/FontAwesomeCDN.
 This code is a JavaScript Illuastrating a Real Estate Website using HTML, CSS, and JavaScript. 
