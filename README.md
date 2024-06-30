@@ -27,73 +27,72 @@ Here's a breakdown of the code:
 This code aims to demonstrate how the N-Queens problem can be solved and visualized using JavaScript, providing insights into the process of finding solutions. It utilizes HTML and CSS for the user interface and JavaScript for the logic and animation.
 ## The approach followed in this code can be summarized as follows:
 
-User Interface Setup
+**User Interface Setup**
 
-    HTML and CSS Elements:
+    **HTML and CSS Elements**:
     The webpage is designed with a variety of interactive elements, including forms for inquiries, buttons for brochure downloads, image sliders for the gallery, and sections detailing various aspects of the project. CSS is used to style these elements, ensuring a clean, modern, and responsive design that aligns with the luxury branding of Uptown Skylla.
 
-Event Handling
+**Event Handling**
 
     User Interactions:
     JavaScript event listeners are implemented to handle various user actions, such as clicking on the brochure download button, navigating through image galleries, or submitting contact forms. For instance, when a user changes the viewing options or submits an inquiry form, event handlers process these actions and provide appropriate feedback or responses.
 
-Data Representation
+**Data Representation**
 
     Content and Visual Data:
     The site utilizes JavaScript variables to store and manage data about the project, including contact information, image URLs, pricing details, and user inquiries. This data is dynamically represented in the UI, allowing for real-time updates and a seamless user experience.
 
-Interactive Features
+**Interactive Features**
 
     Site Tour and Visualization:
     Interactive tools, such as a virtual site plan and animated image carousels, are used to visually represent different aspects of the project. Users can explore the layout, view various apartment types, and get a sense of the amenities through engaging visualizations.
 
-User Interaction and Feedback
+**User Interaction and Feedback**
 
     Input and Feedback Mechanisms:
     Users can input their contact details and preferences through forms, and the site provides immediate feedback. For example, users receive confirmation messages after submitting inquiries, downloading brochures, or requesting site visits. This ensures users feel acknowledged and informed throughout their browsing experience.
 
-Optimization and Performance
+**Optimization and Performance**
 
     Efficient Load and Functionality:
     The website is optimized to load efficiently and handle high traffic volumes, particularly during peak times like promotional events or new phase launches. This includes optimizing image sizes, leveraging browser caching, and minimizing code redundancy to ensure a smooth user experience.
 
-First Impressions: A Warm Welcome
 
-    Engaging Landing Experience:
+   **1. Engaging Landing Experience:**
     As visitors arrive, they are greeted with a welcoming message and a visually appealing landing page. This initial interaction sets a positive tone and introduces users to the luxurious lifestyle and amenities offered by Uptown Skylla, capturing their interest right from the start.
 
 The <head> section sets the stage with essential configurations and links to stylesheets and fonts, promising a sleek and modern design. On page load, a friendly JavaScript alert welcomes visitors to the world of UPTOWN SKYLLA.
-2. Navigation with Flair
+**2. Navigation with Flair**
 
 The navigation bar sparkles with iconic links to popular social media platforms like Facebook, Twitter, and YouTube, giving users instant access to share or explore more. An interactive mobile menu unveils itself with a click, guiding users through a comprehensive list of sections: Home, Location, Site Plan, Floor Plan, Club Skylla, Price List, Gallery, Compliances, and Contact Us.
-3. Effortless Accessibility
+**3. Effortless Accessibility**
 
 At the bottom of the page, a set of utility buttons beckon users to Call, Enquire, or WhatsApp with a tap, ensuring no question goes unanswered.
-4. Vibrant Visuals and Quick Actions
+**4. Vibrant Visuals and Quick Actions**
 
 Strategically placed top icons provide quick access to essential features like Booking a Site Visit, WhatsApp, WALKTHROUGH, PRICE LIST, and DOWNLOAD BROCHURE. The icons paired with eye-catching images direct users effortlessly.
-5. Branding and First Glance
+**5. Branding and First Glance**
 
 The hero section showcases the company's logo and a powerful slogan, "It's time to experience the Best Connectivity." It aligns with a call-to-action encouraging users to Enquire Now or Download Brochure.
-6. Who We Are: Storytelling with a Click
+**6. Who We Are: Storytelling with a Click**
 
 The "WHO WE ARE" section introduces the company with an interactive twist—click to reveal WsCube Tech's commitment to developing quality infrastructure since 2010. It highlights their track record with 6+ Completed Projects and 1,500+ Happy Families.
-7. A Glimpse of Luxury
+**7. A Glimpse of Luxury**
 
 The main content paints a detailed picture of Uptown Skylla’s luxurious offerings, from 2 to 4 BHK apartments and penthouses. The narrative emphasizes meticulous planning, strategic location, and lifestyle-enhancing amenities like landscaped gardens, a swimming pool, a gym, and a clubhouse.
-8. Quick Facts and Offerings
+**8. Quick Facts and Offerings**
 
 A section labeled "Quick Facts" offers bite-sized information about the project’s scale, with total land area, number of apartments, and expected handover details. It’s complemented by a visually appealing showcase of their luxury 2/3/4 BHK flats.
-9. Visual and Descriptive Elegance
+**9. Visual and Descriptive Elegance**
 
 The project highlights and offerings sections bring features like jogging tracks, gated township, open-air theatre, and ample green zones to life with a mix of icons, images, and descriptive text.
-10. Real-Life Visualization
+**10. Real-Life Visualization**
 
 In the mid-page, a section aptly named "Walk-Through" combines a video and text to offer an immersive virtual tour of Uptown Skylla, highlighting its strategic location and architectural finesse.
-11. Organizational Values
+**11. Organizational Values**
 
 The "We are a Goal Oriented Organization" and "Integrity and Fairness" sections emphasize the company's commitment to innovation, customer satisfaction, and ethical practices, backed by attractive icons and a concise description of their values.
-12. Interactive Engagement
+**12. Interactive Engagement**
 
 The page maintains user engagement with interactive elements like dropdown buttons, overlays, and clickable links that encourage deeper exploration into various aspects of the project.
 
